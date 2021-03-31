@@ -38,7 +38,7 @@ class GameController extends Game {
     state = State.menu;
     rand = Random();
     player = Player(this);
-    enemies = List<Enemy>();
+    enemies = <Enemy>[];
     enemySpawner = EnemySpawner(this);
     healthBar = HealthBar(this);
     score = 0;
